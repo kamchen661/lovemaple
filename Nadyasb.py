@@ -364,7 +364,6 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-		nadya.sendMessage(to, "至高無上的製作者")
                     nadya.sendContact(to, "uec6d62c3e4a61f033332bc1d86133e49b")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
