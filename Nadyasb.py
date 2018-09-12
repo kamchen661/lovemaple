@@ -1030,7 +1030,7 @@ def lineBot(op):
                     lang = 'en-us'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-eo "):
                     sep = text.split(" ")
@@ -1038,7 +1038,7 @@ def lineBot(op):
                     lang = 'eo'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-fi "):
                     sep = text.split(" ")
@@ -1046,7 +1046,7 @@ def lineBot(op):
                     lang = 'fi'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-fr "):
                     sep = text.split(" ")
@@ -1054,7 +1054,7 @@ def lineBot(op):
                     lang = 'fr'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-de "):
                     sep = text.split(" ")
@@ -1062,7 +1062,7 @@ def lineBot(op):
                     lang = 'de'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-el "):
                     sep = text.split(" ")
@@ -1070,7 +1070,7 @@ def lineBot(op):
                     lang = 'el'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-hi "):
                     sep = text.split(" ")
@@ -1078,7 +1078,7 @@ def lineBot(op):
                     lang = 'hi'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-hu "):
                     sep = text.split(" ")
@@ -1086,7 +1086,7 @@ def lineBot(op):
                     lang = 'hu'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-is "):
                     sep = text.split(" ")
@@ -1094,7 +1094,7 @@ def lineBot(op):
                     lang = 'is'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-id "):
                     sep = text.split(" ")
@@ -1102,7 +1102,7 @@ def lineBot(op):
                     lang = 'id'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-it "):
                     sep = text.split(" ")
@@ -1110,7 +1110,7 @@ def lineBot(op):
                     lang = 'it'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ja "):
                     sep = text.split(" ")
@@ -1118,7 +1118,7 @@ def lineBot(op):
                     lang = 'ja'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-km "):
                     sep = text.split(" ")
@@ -1126,7 +1126,7 @@ def lineBot(op):
                     lang = 'km'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ko "):
                     sep = text.split(" ")
@@ -1134,7 +1134,7 @@ def lineBot(op):
                     lang = 'ko'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-la "):
                     sep = text.split(" ")
@@ -1142,7 +1142,7 @@ def lineBot(op):
                     lang = 'la'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-lv "):
                     sep = text.split(" ")
@@ -1150,7 +1150,7 @@ def lineBot(op):
                     lang = 'lv'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-mk "):
                     sep = text.split(" ")
@@ -1158,7 +1158,7 @@ def lineBot(op):
                     lang = 'mk'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-no "):
                     sep = text.split(" ")
@@ -1166,7 +1166,7 @@ def lineBot(op):
                     lang = 'no'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-pl "):
                     sep = text.split(" ")
@@ -1174,7 +1174,7 @@ def lineBot(op):
                     lang = 'pl'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果mp3結果")
                     
                 elif msg.text.lower().startswith("say-pt "):
                     sep = text.split(" ")
@@ -1182,7 +1182,7 @@ def lineBot(op):
                     lang = 'pt'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-do "):
                     sep = text.split(" ")
@@ -1190,7 +1190,7 @@ def lineBot(op):
                     lang = 'ro'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ru "):
                     sep = text.split(" ")
@@ -1198,7 +1198,7 @@ def lineBot(op):
                     lang = 'ru'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-sr "):
                     sep = text.split(" ")
@@ -1206,7 +1206,7 @@ def lineBot(op):
                     lang = 'sr'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-si "):
                     sep = text.split(" ")
@@ -1214,7 +1214,7 @@ def lineBot(op):
                     lang = 'si'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-sk "):
                     sep = text.split(" ")
@@ -1222,7 +1222,7 @@ def lineBot(op):
                     lang = 'sk'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-es "):
                     sep = text.split(" ")
@@ -1230,7 +1230,7 @@ def lineBot(op):
                     lang = 'es'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-es-es "):
                     sep = text.split(" ")
@@ -1238,7 +1238,7 @@ def lineBot(op):
                     lang = 'es-es'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-es-us "):
                     sep = text.split(" ")
@@ -1246,7 +1246,7 @@ def lineBot(op):
                     lang = 'es-us'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-sw "):
                     sep = text.split(" ")
@@ -1254,7 +1254,7 @@ def lineBot(op):
                     lang = 'sw'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-sv "):
                     sep = text.split(" ")
@@ -1262,7 +1262,7 @@ def lineBot(op):
                     lang = 'sv'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ta "):
                     sep = text.split(" ")
@@ -1270,7 +1270,7 @@ def lineBot(op):
                     lang = 'ta'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-th "):
                     sep = text.split(" ")
@@ -1278,15 +1278,15 @@ def lineBot(op):
                     lang = 'th'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-tr "):
                     sep = text.split(" ")
                     say = text.replace(sep[0] + " ","")
                     lang = 'tr'
                     tts = gTTS(text=say, lang=lang)
-                    tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    tts.save("hasil.mp3")mp3結果
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-uk "):
                     sep = text.split(" ")
@@ -1294,7 +1294,7 @@ def lineBot(op):
                     lang = 'uk'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-vi "):
                     sep = text.split(" ")
@@ -1302,7 +1302,7 @@ def lineBot(op):
                     lang = 'vi'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")mp3結果
                     
                 elif msg.text.lower().startswith("say-cy "):
                     sep = text.split(" ")
@@ -1310,7 +1310,7 @@ def lineBot(op):
                     lang = 'cy'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
 #==============================================================================# 
                 elif msg.text.lower().startswith("tr-af "):
                     sep = text.split(" ")
@@ -2069,12 +2069,12 @@ def lineBot(op):
                     r=requests.get('https://script.google.com/macros/exec?service=AKfycbw7gKzP-WYV2F5mc9RaR7yE3Ve1yN91Tjs91hp_jHSE02dSv9w&nama=ervan&tanggal='+tanggal)
                     data=r.text
                     data=json.loads(data)
-                    ret_ = "╔══[ D A T E ]"
-                    ret_ += "\n╠ Date Of Birth : {}".format(str(data["data"]["lahir"]))
-                    ret_ += "\n╠ Age : {}".format(str(data["data"]["usia"]))
-                    ret_ += "\n╠ Birthday : {}".format(str(data["data"]["ultah"]))
-                    ret_ += "\n╠ Zodiak : {}".format(str(data["data"]["zodiak"]))
-                    ret_ += "\n╚══[ Success ]"
+                    ret_ = "╔══[ 日期 ]"
+                    ret_ += "\n╠ 出生日期 : {}".format(str(data["data"]["lahir"]))
+                    ret_ += "\n╠ 年齡 : {}".format(str(data["data"]["usia"]))
+                    ret_ += "\n╠ 生日 : {}".format(str(data["data"]["ultah"]))
+                    ret_ += "\n╠ 星座 : {}".format(str(data["data"]["zodiak"]))
+                    ret_ += "\n╚══[ 成功 ]"
                     nadya.sendMessage(to, str(ret_))
                 elif "instagraminfo" in msg.text.lower():
                     sep = text.split(" ")
@@ -2084,27 +2084,27 @@ def lineBot(op):
                         r = web.get("https://www.instagram.com/{}/?__a=1".format(search))
                         try:
                             data = json.loads(r.text)
-                            ret_ = "╔══[ Profile Instagram ]"
-                            ret_ += "\n╠ Nama : {}".format(str(data["user"]["full_name"]))
-                            ret_ += "\n╠ Username : {}".format(str(data["user"]["username"]))
-                            ret_ += "\n╠ Bio : {}".format(str(data["user"]["biography"]))
-                            ret_ += "\n╠ Pengikut : {}".format(format_number(data["user"]["followed_by"]["count"]))
-                            ret_ += "\n╠ Diikuti : {}".format(format_number(data["user"]["follows"]["count"]))
+                            ret_ = "╔══[ Instagram 個人資料 ]"
+                            ret_ += "\n╠ 名稱 : {}".format(str(data["user"]["full_name"]))
+                            ret_ += "\n╠ 使用者名稱 : {}".format(str(data["user"]["username"]))
+                            ret_ += "\n╠ 個簽 : {}".format(str(data["user"]["biography"]))
+                            ret_ += "\n╠ 跟隨者 : {}".format(format_number(data["user"]["followed_by"]["count"]))
+                            ret_ += "\n╠ 其次 : {}".format(format_number(data["user"]["follows"]["count"]))
                             if data["user"]["is_verified"] == True:
-                                ret_ += "\n╠ Verifikasi : Sudah"
+                                ret_ += "\n╠ 隱私 : 開啟"
                             else:
-                                ret_ += "\n╠ Verifikasi : Belum"
+                                ret_ += "\n╠ 隱私 : 關閉"
                             if data["user"]["is_private"] == True:
-                                ret_ += "\n╠ Akun Pribadi : Iya"
+                                ret_ += "\n╠ 個人賬戶 : 開啟"
                             else:
-                                ret_ += "\n╠ Akun Pribadi : Tidak"
-                            ret_ += "\n╠ Total Post : {}".format(format_number(data["user"]["media"]["count"]))
+                                ret_ += "\n╠ 個人賬戶 : 關閉"
+                            ret_ += "\n╠ 全部貼文 : {}".format(format_number(data["user"]["media"]["count"]))
                             ret_ += "\n╚══[ https://www.instagram.com/{} ]".format(search)
                             path = data["user"]["profile_pic_url_hd"]
                             nadya.sendImageWithURL(to, str(path))
                             nadya.sendMessage(to, str(ret_))
                         except:
-                            nadya.sendMessage(to, "Pengguna tidak ditemukan")
+                            nadya.sendMessage(to, "找不到用戶")
                 elif "instagrampost" in msg.text.lower():
                     separate = msg.text.split(" ")
                     user = msg.text.replace(separate[0] + " ","")
@@ -2152,7 +2152,7 @@ def lineBot(op):
                         web.headers["User-Agent"] = random.choice(settings["userAgent"])
                         r = web.get("https://www.youtube.com/results", params = params)
                         soup = BeautifulSoup(r.content, "html5lib")
-                        ret_ = "╔══[ Youtube Result ]"
+                        ret_ = "╔══[ Youtube結果 ]"
                         datas = []
                         for data in soup.select(".yt-lockup-title > a[title]"):
                             if "&lists" not in data["href"]:
@@ -2172,15 +2172,15 @@ def lineBot(op):
                         try:
                             data = json.loads(r.text)
                             for song in data:
-                                ret_ = "╔══[ Music ]"
-                                ret_ += "\n╠ Nama lagu : {}".format(str(song[0]))
-                                ret_ += "\n╠ Durasi : {}".format(str(song[1]))
-                                ret_ += "\n╠ Link : {}".format(str(song[4]))
-                                ret_ += "\n╚══[ reading Audio ]"
+                                ret_ = "╔══[ 音樂 ]"
+                                ret_ += "\n╠ 歌名 : {}".format(str(song[0]))
+                                ret_ += "\n╠ 播放時間 : {}".format(str(song[1]))
+                                ret_ += "\n╠ 鏈接 : {}".format(str(song[4]))
+                                ret_ += "\n╚══[ 閱讀音頻 ]"
                                 nadya.sendMessage(to, str(ret_))
                                 nadya.sendAudioWithURL(to, song[3])
                         except:
-                            nadya.sendMessage(to, "Musik tidak ditemukan")
+                            nadya.sendMessage(to, "找不到音樂")
                 elif "searchlyric" in msg.text.lower():
                     sep = text.split(" ")
                     search = text.replace(sep[0] + " ","")
@@ -2198,25 +2198,25 @@ def lineBot(op):
                                 removeString = "[1234567890.:]"
                                 for char in removeString:
                                     lyric = lyric.replace(char,'')
-                                ret_ = "╔══[ Lyric ]"
-                                ret_ += "\n╠ Nama lagu : {}".format(str(song[0]))
-                                ret_ += "\n╠ Durasi : {}".format(str(song[1]))
-                                ret_ += "\n╠ Link : {}".format(str(song[4]))
-                                ret_ += "\n╚══[ Finish ]\n{}".format(str(lyric))
+                                ret_ = "╔══[ 歌詞 ]"
+                                ret_ += "\n╠ 歌名 : {}".format(str(song[0]))
+                                ret_ += "\n╠ 持續時間 : {}".format(str(song[1]))
+                                ret_ += "\n╠ 鏈接 : {}".format(str(song[4]))
+                                ret_ += "\n╚══[ 結束 ]\n{}".format(str(lyric))
                                 nadya.sendMessage(to, str(ret_))
                         except:
-                            nadya.sendMessage(to, "Lirik tidak ditemukan")
+                            nadya.sendMessage(to, "沒有找到歌詞")
             elif msg.contentType == 7:
                 if settings["checkSticker"] == True:
                     stk_id = msg.contentMetadata['STKID']
                     stk_ver = msg.contentMetadata['STKVER']
                     pkg_id = msg.contentMetadata['STKPKGID']
-                    ret_ = "╔══[ Sticker Info ]"
-                    ret_ += "\n╠ STICKER ID : {}".format(stk_id)
-                    ret_ += "\n╠ STICKER PACKAGES ID : {}".format(pkg_id)
-                    ret_ += "\n╠ STICKER VERSION : {}".format(stk_ver)
-                    ret_ += "\n╠ STICKER URL : line://shop/detail/{}".format(pkg_id)
-                    ret_ += "\n╚══[ Finish ]"
+                    ret_ = "╔══[ 貼圖信息 ]"
+                    ret_ += "\n╠ 貼圖 ID : {}".format(stk_id)
+                    ret_ += "\n╠ 全貼圖ID : {}".format(pkg_id)
+                    ret_ += "\n╠ 貼圖版本 : {}".format(stk_ver)
+                    ret_ += "\n╠ 貼圖網址 : line://shop/detail/{}".format(pkg_id)
+                    ret_ += "\n╚══[ 結束 ]"
                     nadya.sendMessage(to, str(ret_))
                     
             elif msg.contentType == 13:
@@ -2232,13 +2232,13 @@ def lineBot(op):
                         else:
                             targets.append(copy)
                     if targets == []:
-                        nadya.sendText(msg.to, "Not Found...")
+                        nadya.sendText(msg.to, "找不到...")
                         pass
                     else:
                         for target in targets:
                             try:
                                 nadya.cloneContactProfile(target)
-                                nadya.sendMessage(msg.to, "Berhasil clone member tunggu beberapa saat sampai profile berubah")
+                                nadya.sendMessage(msg.to, "複製檔案需等待一段時間，直到配置文件更改完成為止")
                                 settings['copy'] = False
                                 break
                             except:
@@ -2249,7 +2249,7 @@ def lineBot(op):
                     
 #==============================================================================#
         if op.type == 26:
-            print ("[ 26 ] RECEIVE MESSAGE")
+            print ("[ 26 ] 收到消息")
             msg = op.message
             text = msg.text
             msg_id = msg.id
@@ -2286,7 +2286,7 @@ def lineBot(op):
                                 break
 #==============================================================================#
         if op.type == 55:
-            print ("[ 55 ] NOTIFIED READ MESSAGE")
+            print ("[ 55 ] 通知閱讀消息")
             try:
                 if op.param1 in read['readPoint']:
                     if op.param2 in read['readMember'][op.param1]:
