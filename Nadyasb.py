@@ -41,7 +41,7 @@ myProfile["statusMessage"] = nadyaProfile.statusMessage
 myProfile["pictureStatus"] = nadyaProfile.pictureStatus
 #==============================================================================#
 def restartBot():
-    print ("[ INFO ] BOT RESETTED")
+    print ("[ INFO ] BOT重新開啟")
     backupData()
 #    time.sleep(3)
     python = sys.executable
@@ -76,96 +76,96 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "╔═══════════════" + "\n" + \
-                  "╠♥ ✿✿✿ NADYA_TJ ✿✿✿ ♥" + "\n" + \
+                  "╠♥ ✿✿✿ 多功能單體半垢 ✿✿✿ ♥" + "\n" + \
                   "║" + "\n" + \
-                  "╠══✪〘 Help Message 〙✪══" + "\n" + \
+                  "╠══✪〘 基本指令 〙✪══" + "\n" + \
                   "║" + "\n" + \
                   "╠✪〘 Help 〙✪════════" + "\n" + \
-                  "╠➥ Help" + "\n" + \
-                  "╠➥ Translate" + "\n" + \
-                  "╠➥ Texttospeech" + "\n" + \
+                  "╠➥ Help 指令表" + "\n" + \
+                  "╠➥ Translate 翻譯" + "\n" + \
+                  "╠➥ Texttospeech 文字轉語音" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Status 〙✪════════" + "\n" + \
-                  "╠➥ Restart" + "\n" + \
-                  "╠➥ Runtime" + "\n" + \
-                  "╠➥ Speed" + "\n" + \
-                  "╠➥ Status" + "\n" + \
-                  "╠➥ About" + "\n" + \
+                  "╠✪〘 狀態 〙✪════════" + "\n" + \
+                  "╠➥ Restart 重新運行" + "\n" + \
+                  "╠➥ Runtime 運行時間" + "\n" + \
+                  "╠➥ Speed 速度" + "\n" + \
+                  "╠➥ Status 狀態" + "\n" + \
+                  "╠➥ About 關於機器" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Settings 〙✪═══════" + "\n" + \
-                  "╠➥ AutoAdd「On/Off」" + "\n" + \
-                  "╠➥ AutoJoin「On/Off」" + "\n" + \
-                  "╠➥ AutoLeave「On/Off」" + "\n" + \
-                  "╠➥ AutoRead「On/Off」" + "\n" + \
-                  "╠➥ CheckSticker「On/Off」" + "\n" + \
-                  "╠➥ DetectMention「On/Off」" + "\n" + \
+                  "╠✪〘 基本設定 〙✪═══════" + "\n" + \
+                  "╠➥ AutoAdd「On/Off」自動加入好友" + "\n" + \
+                  "╠➥ AutoJoin「On/Off」自動入群" + "\n" + \
+                  "╠➥ AutoLeave「On/Off」自動離開副本" + "\n" + \
+                  "╠➥ AutoRead「On/Off」自動已讀" + "\n" + \
+                  "╠➥ CheckSticker「On/Off」查看貼圖" + "\n" + \
+                  "╠➥ DetectMention「On/Off」查看標記" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Self 〙✪═════════" + "\n" + \
-                  "╠➥ Me" + "\n" + \
-                  "╠➥ MyMid" + "\n" + \
-                  "╠➥ MyName" + "\n" + \
-                  "╠➥ MyBio" + "\n" + \
-                  "╠➥ MyPicture" + "\n" + \
-                  "╠➥ MyVideoProfile" + "\n" + \
-                  "╠➥ MyCover" + "\n" + \
-                  "╠➥ StealContact「Mention」" + "\n" + \
-                  "╠➥ StealMid「Mention」" + "\n" + \
-                  "╠➥ StealName「Mention」" + "\n" + \
-                  "╠➥ StealBio「Mention」" + "\n" + \
-                  "╠➥ StealPicture「Mention」" + "\n" + \
-                  "╠➥ StealVideoProfile「Mention」" + "\n" + \
-                  "╠➥ StealCover「Mention」" + "\n" + \
-                  "╠➥ CloneProfile「Mention」" + "\n" + \
-                  "╠➥ RestoreProfile" + "\n" + \
+                  "╠✪〘 關於自己 〙✪═════════" + "\n" + \
+                  "╠➥ Me 我的資料" + "\n" + \
+                  "╠➥ MyMid 我的MID" + "\n" + \
+                  "╠➥ MyName 我的名子" + "\n" + \
+                  "╠➥ MyBio 我的個簽" + "\n" + \
+                  "╠➥ MyPicture 我的頭貼" + "\n" + \
+                  "╠➥ MyVideoProfile 影片頭貼" + "\n" + \
+                  "╠➥ MyCover 我的封面" + "\n" + \
+                  "╠➥ StealContact「Mention」取得友資" + "\n" + \
+                  "╠➥ StealMid「Mention」取得MID" + "\n" + \
+                  "╠➥ StealName「Mention」取得名子" + "\n" + \
+                  "╠➥ StealBio「Mention」取得個簽" + "\n" + \
+                  "╠➥ StealPicture「Mention」取得頭貼" + "\n" + \
+                  "╠➥ StealVideoProfile「Mention」取得影片頭貼" + "\n" + \
+                  "╠➥ StealCover「Mention」取得封面" + "\n" + \
+                  "╠➥ CloneProfile「Mention」複製檔案" + "\n" + \
+                  "╠➥ RestoreProfile 恢復原本檔案" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Group 〙✪════════" + "\n" + \
-                  "╠➥ GroupCreator" + "\n" + \
-                  "╠➥ GroupId" + "\n" + \
-                  "╠➥ GroupName" + "\n" + \
-                  "╠➥ GroupPicture" + "\n" + \
-                  "╠➥ GroupTicket" + "\n" + \
-                  "╠➥ GroupTicket「On/Off」" + "\n" + \
-                  "╠➥ GroupList" + "\n" + \
-                  "╠➥ GroupMemberList" + "\n" + \
-                  "╠➥ GroupInfo" + "\n" + \
-                  "╠➥ Kill「Mention」" + "\n" + \
-                  "╠➥ KickAllMember"+ "\n" + \
+                  "╠✪〘 群組 〙✪════════" + "\n" + \
+                  "╠➥ GroupCreator 群組作者" + "\n" + \
+                  "╠➥ GroupId 群組ID" + "\n" + \
+                  "╠➥ GroupName 群組名子" + "\n" + \
+                  "╠➥ GroupPicture 群組圖片" + "\n" + \
+                  "╠➥ GroupTicket 群組票卷" + "\n" + \
+                  "╠➥ GroupTicket「On/Off」關閉票卷" + "\n" + \
+                  "╠➥ GroupList 群組列表" + "\n" + \
+                  "╠➥ GroupMemberList 群組成員列表" + "\n" + \
+                  "╠➥ GroupInfo 群組資訊" + "\n" + \
+                  "╠➥ Kill「Mention」 踢掉" + "\n" + \
+                  "╠➥ KickAllMember 踢掉所有成員"+ "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Special 〙✪═══════" + "\n" + \
-                  "╠➥ Mimic「On/Off」" + "\n" + \
-                  "╠➥ MimicList" + "\n" + \
-                  "╠➥ MimicAdd「Mention」" + "\n" + \
-                  "╠➥ MimicDel「Mention」" + "\n" + \
-                  "╠➥ Mention" + "\n" + \
-                  "╠➥ Lurking「Oɴ/Off/Reset」" + "\n" + \
-                  "╠➥ Lurking" + "\n" + \
+                  "╠✪〘 特殊指令 〙✪═══════" + "\n" + \
+                  "╠➥ Mimic「On/Off」 模仿" + "\n" + \
+                  "╠➥ MimicList 模仿列表" + "\n" + \
+                  "╠➥ MimicAdd「Mention」模仿增加" + "\n" + \
+                  "╠➥ MimicDel「Mention」模仿刪除" + "\n" + \
+                  "╠➥ Mention 全部標記" + "\n" + \
+                  "╠➥ stread「Oɴ/Off/Reset」設置已讀點" + "\n" + \
+                  "╠➥ lkread 查看已讀" + "\n" + \
                   "║" + "\n" + \
-                  "╠✪〘 Media 〙✪════════" + "\n" + \
-                  "╠➥ Kalender" + "\n" + \
-                  "╠➥ CheckDate「Date」" + "\n" + \
-                  "╠➥ InstagramInfo「UserName」" + "\n" + \
-                  "╠➥ InstagramPost「UserName」" + "\n" + \
-                  "╠➥ SearchYoutube「Search」" + "\n" + \
-                  "╠➥ SearchMusic「Search」" + "\n" + \
-                  "╠➥ SearchLyric「Search」" + "\n" + \
-                  "╠➥ SearchImage「Search」" + "\n" + \
-                  "╠➥ ScreenshootWebsite「LinkUrl」" + "\n" + \
+                  "╠✪〘 媒體程式 〙✪════════" + "\n" + \
+                  "╠➥ Kalender 日期" + "\n" + \
+                  "╠➥ CheckDate「日期」檢查日期" + "\n" + \
+                  "╠➥ InstagramInfo「名稱」IG資訊" + "\n" + \
+                  "╠➥ InstagramPost「名稱」IG貼文" + "\n" + \
+                  "╠➥ SearchYoutube「Search」搜尋YouTube" + "\n" + \
+                  "╠➥ SearchMusic「Search」搜尋音樂" + "\n" + \
+                  "╠➥ SearchLyric「Search」搜尋歌詞" + "\n" + \
+                  "╠➥ SearchImage「Search」搜尋圖片" + "\n" + \
+                  "╠➥ ScreenshootWebsite「網址l」 網站的螢幕截圖" + "\n" + \
                   "║" + "\n" + \
-                  "╚═〘 Credits By: ©Nadya_TJ™  〙"
+                  "╚═〘 半垢製作者:@楓糖  〙"
     return helpMessage
     
 def helptexttospeech():
-    helpTextToSpeech =   "╔══[ T E X T   T O   S P E E C H ]" + "\n" + \
-                         "╠ af : Afrikaans" + "\n" + \
-                         "╠ sq : Albanian" + "\n" + \
-                         "╠ ar : Arabic" + "\n" + \
-                         "╠ hy : Armenian" + "\n" + \
-                         "╠ bn : Bengali" + "\n" + \
-                         "╠ ca : Catalan" + "\n" + \
-                         "╠ zh : Chinese" + "\n" + \
-                         "╠ zh-cn : Chinese (Mandarin/China)" + "\n" + \
-                         "╠ zh-tw : Chinese (Mandarin/Taiwan)" + "\n" + \
-                         "╠ zh-yue : Chinese (Cantonese)" + "\n" + \
+    helpTextToSpeech =   "╔══[ 文字轉語音 ]" + "\n" + \
+                         "╠ af : 南非荷蘭語" + "\n" + \
+                         "╠ sq : 阿爾巴尼亞人" + "\n" + \
+                         "╠ ar : 阿拉伯" + "\n" + \
+                         "╠ hy : 亞美尼亞" + "\n" + \
+                         "╠ bn : 孟加拉" + "\n" + \
+                         "╠ ca : 加泰羅尼亞" + "\n" + \
+                         "╠ zh : 中文" + "\n" + \
+                         "╠ zh-cn : 中文（普通話/中國）" + "\n" + \
+                         "╠ zh-tw : 中文（普通話/台灣）" + "\n" + \
+                         "╠ zh-yue : 中文（廣東話）" + "\n" + \
                          "╠ hr : Croatian" + "\n" + \
                          "╠ cs : Czech" + "\n" + \
                          "╠ da : Danish" + "\n" + \
@@ -328,23 +328,23 @@ def helptranslate():
 def lineBot(op):
     try:
         if op.type == 0:
-            print ("[ 0 ] END OF OPERATION")
+            print ("[ 0 ] 運行結束")
             return
         if op.type == 5:
-            print ("[ 5 ] NOTIFIED ADD CONTACT")
+            print ("[ 5 ] 添加聯繫人")
             if settings["autoAdd"] == True:
-                nadya.sendMessage(op.param1, "Halo {} terimakasih telah menambahkan saya sebagai teman :D".format(str(nadya.getContact(op.param1).displayName)))
+                nadya.sendMessage(op.param1, "哈囉 {} 感謝你加我為好友".format(str(nadya.getContact(op.param1).displayName)))
         if op.type == 13:
-            print ("[ 13 ] NOTIFIED INVITE GROUP")
+            print ("[ 13 ] 邀請群組")
             group = nadya.getGroup(op.param1)
             if settings["autoJoin"] == True:
                 nadya.acceptGroupInvitation(op.param1)
         if op.type == 24:
-            print ("[ 24 ] NOTIFIED LEAVE ROOM")
+            print ("[ 24 ] 副本")
             if settings["autoLeave"] == True:
                 nadya.leaveRoom(op.param1)
         if op.type == 25:
-            print ("[ 25 ] SEND MESSAGE")
+            print ("[ 25 ] 發送消息")
             msg = op.message
             text = msg.text
             msg_id = msg.id
@@ -364,7 +364,8 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "u14f64e139a3817afaabe27d237afb36b")
+		nadya.sendMessage(to, "至高無上的製作者")
+                    nadya.sendContact(to, "uec6d62c3e4a61f033332bc1d86133e49b")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
@@ -374,99 +375,99 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'speed':
                     start = time.time()
-                    nadya.sendMessage(to, "Prosses...")
+                    nadya.sendMessage(to, "努力測速中...")
                     elapsed_time = time.time() - start
-                    nadya.sendMessage(to,format(str(elapsed_time)))
+                    nadya.sendMessage(to, "反應速度 {} 秒".format(str(elapsed_time)))
                 elif text.lower() == 'restart':
-                    nadya.sendMessage(to, "Restarting")
+                    nadya.sendMessage(to, "重新啟動中")
                     time.sleep(5)
-                    nadya.sendMessage(to, "Restart Sukses")
+                    nadya.sendMessage(to, "重起完畢")
                     restartBot()
                 elif text.lower() == 'runtime':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    nadya.sendMessage(to, "Bot sudah berjalan selama {}".format(str(runtime)))
+                    nadya.sendMessage(to, "BOT已運行 {}".format(str(runtime)))
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "u14f64e139a3817afaabe27d237afb36b"
+                        owner = "uec6d62c3e4a61f033332bc1d86133e49"
                         creator = nadya.getContact(owner)
                         contact = nadya.getContact(nadyaMID)
                         grouplist = nadya.getGroupIdsJoined()
                         contactlist = nadya.getAllContactIds()
                         blockedlist = nadya.getBlockedContactIds()
-                        ret_ = "╔══[ About Self ]"
+                        ret_ = "╔══[ 關於自已 ]"
                         ret_ += "\n╠ Line : {}".format(contact.displayName)
-                        ret_ += "\n╠ Group : {}".format(str(len(grouplist)))
-                        ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
-                        ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
-                        ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : Beta Test"
-                        ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╚══[ Dilarang Remake Tanpa Ijin :D ]"
+                        ret_ += "\n╠ 群組 : {}".format(str(len(grouplist)))
+                        ret_ += "\n╠ 好友 : {}".format(str(len(contactlist)))
+                        ret_ += "\n╠ 黑名單 : {}".format(str(len(blockedlist)))
+                        ret_ += "\n╠══[ 關於Selfbot ]"
+                        ret_ += "\n╠ 版本 : Beta測試版"
+                        ret_ += "\n╠ 作者 : {}".format(creator.displayName)
+                        ret_ += "\n╚══[ About ]"
                         nadya.sendMessage(to, str(ret_))
                     except Exception as e:
                         nadya.sendMessage(msg.to, str(e))
 #==============================================================================#
                 elif text.lower() == 'status':
                     try:
-                        ret_ = "╔══[ Status ]"
-                        if settings["autoAdd"] == True: ret_ += "\n╠ Auto Add ✅"
-                        else: ret_ += "\n╠ Auto Add ❌"
-                        if settings["autoJoin"] == True: ret_ += "\n╠ Auto Join ✅"
-                        else: ret_ += "\n╠ Auto Join ❌"
-                        if settings["autoLeave"] == True: ret_ += "\n╠ Auto Leave ✅"
-                        else: ret_ += "\n╠ Auto Leave ❌"
-                        if settings["autoRead"] == True: ret_ += "\n╠ Auto Read ✅"
+                        ret_ = "╔══[ 狀態 ]"
+                        if settings["autoAdd"] == True: ret_ += "\n╠ 自動加入好友 ✅"
+                        else: ret_ += "\n╠ 自動加入好友 ❌"
+                        if settings["autoJoin"] == True: ret_ += "\n╠ 自動入群 ✅"
+                        else: ret_ += "\n╠ 自動入群 ❌"
+                        if settings["autoLeave"] == True: ret_ += "\n╠ 自動離開副本 ✅"
+                        else: ret_ += "\n╠ 自動離開副本 ❌"
+                        if settings["autoRead"] == True: ret_ += "\n╠ 自動已讀 ✅"
                         else: ret_ += "\n╠ Auto Read ❌"
-                        if settings["checkSticker"] == True: ret_ += "\n╠ Check Sticker ✅"
-                        else: ret_ += "\n╠ Check Sticker ❌"
-                        if settings["detectMention"] == True: ret_ += "\n╠ Detect Mention ✅"
-                        else: ret_ += "\n╠ Detect Mention ❌"
+                        if settings["checkSticker"] == True: ret_ += "\n╠ 查看貼圖 ✅"
+                        else: ret_ += "\n╠ 查看貼圖 ❌"
+                        if settings["detectMention"] == True: ret_ += "\n╠ 查看標記 ✅"
+                        else: ret_ += "\n╠ 查看標記 ❌"
                         ret_ += "\n╚══[ Status ]"
                         nadya.sendMessage(to, str(ret_))
                     except Exception as e:
                         nadya.sendMessage(msg.to, str(e))
                 elif text.lower() == 'autoadd on':
                     settings["autoAdd"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Auto Add")
+                    nadya.sendMessage(to, "已開啟自動加入好友")
                 elif text.lower() == 'autoadd off':
                     settings["autoAdd"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Auto Add")
+                    nadya.sendMessage(to, "已關閉自動加入好友")
                 elif text.lower() == 'autojoin on':
                     settings["autoJoin"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Auto Join")
+                    nadya.sendMessage(to, "已開啟自動入群")
                 elif text.lower() == 'autojoin off':
                     settings["autoJoin"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Auto Join")
+                    nadya.sendMessage(to, "已關閉自動入群")
                 elif text.lower() == 'autoleave on':
                     settings["autoLeave"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Auto Leave")
+                    nadya.sendMessage(to, "已開啟自動離開副本")
                 elif text.lower() == 'autojoin off':
                     settings["autoLeave"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Auto Leave")
+                    nadya.sendMessage(to, "已關閉自動離開副本")
                 elif text.lower() == 'autoread on':
                     settings["autoRead"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Auto Read")
+                    nadya.sendMessage(to, "已開啟自動已讀")
                 elif text.lower() == 'autoread off':
                     settings["autoRead"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Auto Read")
+                    nadya.sendMessage(to, "已關閉自動已讀")
                 elif text.lower() == 'checksticker on':
                     settings["checkSticker"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Check Details Sticker")
+                    nadya.sendMessage(to, "已開啟查看貼圖")
                 elif text.lower() == 'checksticker off':
                     settings["checkSticker"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Check Details Sticker")
+                    nadya.sendMessage(to, "已關閉查看貼圖")
                 elif text.lower() == 'detectmention on':
                     settings["datectMention"] = True
-                    nadya.sendMessage(to, "Berhasil mengaktifkan Detect Mention")
+                    nadya.sendMessage(to, "已開啟查看標記")
                 elif text.lower() == 'detectmention off':
                     settings["datectMention"] = False
-                    nadya.sendMessage(to, "Berhasil menonaktifkan Detect Mention")
+                    nadya.sendMessage(to, "已關閉查看標記")
                 elif text.lower() == 'clonecontact':
                     settings["copy"] = True
-                    nadya.sendMessage(to, "Kirim Contact Yang Mau Di Copy")
+                    nadya.sendMessage(to, "請發送想複製的人的友資")
 #==============================================================================#
                 elif text.lower() == 'me':
                     sendMessageWithMention(to, nadyaMID)
@@ -475,10 +476,10 @@ def lineBot(op):
                     nadya.sendMessage(msg.to,"[MID]\n" +  nadyaMID)
                 elif text.lower() == 'myname':
                     me = nadya.getContact(nadyaMID)
-                    nadya.sendMessage(msg.to,"[DisplayName]\n" + me.displayName)
+                    nadya.sendMessage(msg.to,"[顯示名稱]\n" + me.displayName)
                 elif text.lower() == 'mybio':
                     me = nadya.getContact(nadyaMID)
-                    nadya.sendMessage(msg.to,"[StatusMessage]\n" + me.statusMessage)
+                    nadya.sendMessage(msg.to,"[消息狀態]\n" + me.statusMessage)
                 elif text.lower() == 'mypicture':
                     me = nadya.getContact(nadyaMID)
                     nadya.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)
@@ -526,7 +527,7 @@ def lineBot(op):
                                 lists.append(mention["M"])
                         for ls in lists:
                             contact = nadya.getContact(ls)
-                            nadya.sendMessage(msg.to, "[ Display Name ]\n" + contact.displayName)
+                            nadya.sendMessage(msg.to, "[ 顯示名稱 ]\n" + contact.displayName)
                 elif msg.text.lower().startswith("stealbio "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
@@ -586,20 +587,20 @@ def lineBot(op):
                             break
                         try:
                             nadya.cloneContactProfile(contact)
-                            nadya.sendMessage(msg.to, "Berhasil clone member tunggu beberapa saat sampai profile berubah")
+                            nadya.sendMessage(msg.to, "複製檔案需等待一段時間，直到配置文件更改完全為止")
                         except:
-                            nadya.sendMessage(msg.to, "Gagal clone member")
+                            nadya.sendMessage(msg.to, "複製檔案失敗")
                             
                 elif text.lower() == 'restoreprofile':
                     try:
-                        nadyaProfile.displayName = str(myProfile["displayName"])
-                        nadyaProfile.statusMessage = str(myProfile["statusMessage"])
-                        nadyaProfile.pictureStatus = str(myProfile["pictureStatus"])
+                        nadyaProfile.displayName = str(myProfile["顯示名稱"])
+                        nadyaProfile.statusMessage = str(myProfile["狀態消息"])
+                        nadyaProfile.pictureStatus = str(myProfile["圖片狀態"])
                         nadya.updateProfileAttribute(8, nadyaProfile.pictureStatus)
                         nadya.updateProfile(nadyaProfile)
-                        nadya.sendMessage(msg.to, "Berhasil restore profile tunggu beberapa saat sampai profile berubah")
+                        nadya.sendMessage(msg.to, "恢復檔案需等待一段時間，直到配置文件更改完全為止")
                     except:
-                        nadya.sendMessage(msg.to, "Gagal restore profile")
+                        nadya.sendMessage(msg.to, "恢復檔案失敗")
                         
 #==============================================================================#
                 elif msg.text.lower().startswith("mimicadd "):
@@ -611,10 +612,10 @@ def lineBot(op):
                     for target in targets:
                         try:
                             settings["mimic"]["target"][target] = True
-                            nadya.sendMessage(msg.to,"Target ditambahkan!")
+                            nadya.sendMessage(msg.to,"目標已添加！")
                             break
                         except:
-                            nadya.sendMessage(msg.to,"Added Target Fail !")
+                            nadya.sendMessage(msg.to,"添加目標失敗！")
                             break
                 elif msg.text.lower().startswith("mimicdel "):
                     targets = []
@@ -625,19 +626,19 @@ def lineBot(op):
                     for target in targets:
                         try:
                             del settings["mimic"]["target"][target]
-                            nadya.sendMessage(msg.to,"Target dihapuskan!")
+                            nadya.sendMessage(msg.to,"目標已被移除！")
                             break
                         except:
-                            nadya.sendMessage(msg.to,"Deleted Target Fail !")
+                            nadya.sendMessage(msg.to,"刪除目標失敗！")
                             break
                 elif text.lower() == 'mimiclist':
                     if settings["mimic"]["target"] == {}:
-                        nadya.sendMessage(msg.to,"Tidak Ada Target")
+                        nadya.sendMessage(msg.to,"沒有目標")
                     else:
-                        mc = "╔══[ Mimic List ]"
+                        mc = "╔══[ 模仿列表 ]"
                         for mi_d in settings["mimic"]["target"]:
                             mc += "\n╠ "+nadya.getContact(mi_d).displayName
-                        nadya.sendMessage(msg.to,mc + "\n╚══[ Finish ]")
+                        nadya.sendMessage(msg.to,mc + "\n╚══[ 結束 ]")
                     
                 elif "mimic" in msg.text.lower():
                     sep = text.split(" ")
@@ -645,11 +646,11 @@ def lineBot(op):
                     if mic == "on":
                         if settings["mimic"]["status"] == False:
                             settings["mimic"]["status"] = True
-                            nadya.sendMessage(msg.to,"Reply Message on")
+                            nadya.sendMessage(msg.to,"模仿 開")
                     elif mic == "off":
                         if settings["mimic"]["status"] == True:
                             settings["mimic"]["status"] = False
-                            nadya.sendMessage(msg.to,"Reply Message off")
+                            nadya.sendMessage(msg.to,"模仿 關")
 #==============================================================================#
                 elif text.lower() == 'groupcreator':
                     group = nadya.getGroup(to)
@@ -657,40 +658,40 @@ def lineBot(op):
                     nadya.sendContact(to, GS)
                 elif text.lower() == 'groupid':
                     gid = nadya.getGroup(to)
-                    nadya.sendMessage(to, "[ID Group : ]\n" + gid.id)
+                    nadya.sendMessage(to, "[群組 ID : ]\n" + gid.id)
                 elif text.lower() == 'grouppicture':
                     group = nadya.getGroup(to)
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     nadya.sendImageWithURL(to, path)
                 elif text.lower() == 'groupname':
                     gid = nadya.getGroup(to)
-                    nadya.sendMessage(to, "[Nama Group : ]\n" + gid.name)
+                    nadya.sendMessage(to, "[群組名稱 : ]\n" + gid.name)
                 elif text.lower() == 'groupticket':
                     if msg.toType == 2:
                         group = nadya.getGroup(to)
                         if group.preventedJoinByTicket == False:
                             ticket = nadya.reissueGroupTicket(to)
-                            nadya.sendMessage(to, "[ Group Ticket ]\nhttps://nadya.me/R/ti/g/{}".format(str(ticket)))
+                            nadya.sendMessage(to, "[ 群組QR ]\nhttps://nadya.me/R/ti/g/{}".format(str(ticket)))
                         else:
-                            nadya.sendMessage(to, "Grup qr tidak terbuka silahkan buka terlebih dahulu dengan perintah {}openqr".format(str(settings["keyCommand"])))
+                            nadya.sendMessage(to, "群組QR未打開，請先使用{} openqr命令打開".format(str(settings["keyCommand"])))
                 elif text.lower() == 'groupticket on':
                     if msg.toType == 2:
                         group = nadya.getGroup(to)
                         if group.preventedJoinByTicket == False:
-                            nadya.sendMessage(to, "Grup qr sudah terbuka")
+                            nadya.sendMessage(to, "群組QR是開放的")
                         else:
                             group.preventedJoinByTicket = False
                             nadya.updateGroup(group)
-                            nadya.sendMessage(to, "Berhasil membuka grup qr")
+                            nadya.sendMessage(to, "成功打開群組QR")
                 elif text.lower() == 'groupticket off':
                     if msg.toType == 2:
                         group = nadya.getGroup(to)
                         if group.preventedJoinByTicket == True:
-                            nadya.sendMessage(to, "Grup qr sudah tertutup")
+                            nadya.sendMessage(to, "群組QR已經關閉")
                         else:
                             group.preventedJoinByTicket = True
                             nadya.updateGroup(group)
-                            nadya.sendMessage(to, "Berhasil menutup grup qr")
+                            nadya.sendMessage(to, "成功關閉群組QR")
                 elif text.lower() == 'groupinfo':
                     group = nadya.getGroup(to)
                     try:
@@ -708,36 +709,36 @@ def lineBot(op):
                         gQr = "Terbuka"
                         gTicket = "https://nadya.me/R/ti/g/{}".format(str(nadya.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    ret_ = "╔══[ Group Info ]"
-                    ret_ += "\n╠ Nama Group : {}".format(str(group.name))
-                    ret_ += "\n╠ ID Group : {}".format(group.id)
-                    ret_ += "\n╠ Pembuat : {}".format(str(gCreator))
-                    ret_ += "\n╠ Jumlah Member : {}".format(str(len(group.members)))
-                    ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
-                    ret_ += "\n╠ Group Qr : {}".format(gQr)
-                    ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                    ret_ += "\n╚══[ Finish ]"
+                    ret_ = "╔══[ 群組資訊 ]"
+                    ret_ += "\n╠ 群組名稱 : {}".format(str(group.name))
+                    ret_ += "\n╠ 群組ID : {}".format(group.id)
+                    ret_ += "\n╠ 創造者 : {}".format(str(gCreator))
+                    ret_ += "\n╠ 成員數量 : {}".format(str(len(group.members)))
+                    ret_ += "\n╠ 待定成員 : {}".format(gPending)
+                    ret_ += "\n╠ 群組 Qr : {}".format(gQr)
+                    ret_ += "\n╠ 群組票卷 : {}".format(gTicket)
+                    ret_ += "\n╚══[ 結束 ]"
                     nadya.sendMessage(to, str(ret_))
                     nadya.sendImageWithURL(to, path)
                 elif text.lower() == 'groupmemberlist':
                     if msg.toType == 2:
                         group = nadya.getGroup(to)
-                        ret_ = "╔══[ Member List ]"
+                        ret_ = "╔══[ 成員名單 ]"
                         no = 0 + 1
                         for mem in group.members:
                             ret_ += "\n╠ {}. {}".format(str(no), str(mem.displayName))
                             no += 1
-                        ret_ += "\n╚══[ Total {} ]".format(str(len(group.members)))
+                        ret_ += "\n╚══[ 全部 {} 人]".format(str(len(group.members)))
                         nadya.sendMessage(to, str(ret_))
                 elif text.lower() == 'grouplist':
                         groups = nadya.groups
-                        ret_ = "╔══[ Group List ]"
+                        ret_ = "╔══[ 群組列表 ]"
                         no = 0 + 1
                         for gid in groups:
                             group = nadya.getGroup(gid)
                             ret_ += "\n╠ {}. {} | {}".format(str(no), str(group.name), str(len(group.members)))
                             no += 1
-                        ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
+                        ret_ += "\n╚══[ 全部 {} 群組 ]".format(str(len(groups)))
                         nadya.sendMessage(to, str(ret_))
 #==============================================================================#          
                 elif text.lower() == 'mention':
@@ -753,8 +754,8 @@ def lineBot(op):
                             s += 7
                             txt += u'@Alin \n'
                         nadya.sendMessage(to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
-                        nadya.sendMessage(to, "Total {} Mention".format(str(len(nama))))          
-                elif text.lower() == 'lurking on':
+                        nadya.sendMessage(to, "全部 {} 標記".format(str(len(nama))))          
+                elif text.lower() == 'stread on':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -780,7 +781,7 @@ def lineBot(op):
                             read['ROM'][msg.to] = {}
                             with open('read.json', 'w') as fp:
                                 json.dump(read, fp, sort_keys=True, indent=4)
-                                nadya.sendMessage(msg.to,"Lurking already on")
+                                nadya.sendMessage(msg.to,"已讀點已存在")
                     else:
                         try:
                             del read['readPoint'][msg.to]
@@ -794,9 +795,9 @@ def lineBot(op):
                         read['ROM'][msg.to] = {}
                         with open('read.json', 'w') as fp:
                             json.dump(read, fp, sort_keys=True, indent=4)
-                            nadya.sendMessage(msg.to, "Set reading point:\n" + readTime)
+                            nadya.sendMessage(msg.to, "設置已讀點:\n" + readTime)
                             
-                elif text.lower() == 'lurking off':
+                elif text.lower() == 'stread off':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -810,7 +811,7 @@ def lineBot(op):
                         if bln == str(k): bln = bulan[k-1]
                     readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     if msg.to not in read['readPoint']:
-                        nadya.sendMessage(msg.to,"Lurking already off")
+                        nadya.sendMessage(msg.to,"已讀點已關閉")
                     else:
                         try:
                             del read['readPoint'][msg.to]
@@ -818,9 +819,9 @@ def lineBot(op):
                             del read['readTime'][msg.to]
                         except:
                               pass
-                        nadya.sendMessage(msg.to, "Delete reading point:\n" + readTime)
+                        nadya.sendMessage(msg.to, "刪除已讀點:\n" + readTime)
     
-                elif text.lower() == 'lurking reset':
+                elif text.lower() == 'stread re':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -840,9 +841,9 @@ def lineBot(op):
                             del read["readTime"][msg.to]
                         except:
                             pass
-                        nadya.sendMessage(msg.to, "Reset reading point:\n" + readTime)
+                        nadya.sendMessage(msg.to, "重置已讀點:\n" + readTime)
                     else:
-                        nadya.sendMessage(msg.to, "Lurking belum diaktifkan ngapain di reset?")
+                        nadya.sendMessage(msg.to, "Stread尚未開啟，為何重置")
                         
                 elif text.lower() == 'lurking':
                     tz = pytz.timezone("Asia/Jakarta")
@@ -859,7 +860,7 @@ def lineBot(op):
                     readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     if receiver in read['readPoint']:
                         if read["ROM"][receiver].items() == []:
-                            nadya.sendMessage(receiver,"[ Reader ]:\nNone")
+                            nadya.sendMessage(receiver,"[ 已讀者 ]:\nNone")
                         else:
                             chiya = []
                             for rom in read["ROM"][receiver].items():
@@ -878,14 +879,14 @@ def lineBot(op):
                             zx = {'S':xlen, 'E':xlen2, 'M':cmem[x].mid}
                             zx2.append(zx)
                             zxc += pesan2
-                        text = xpesan+ zxc + "\n[ Lurking time ]: \n" + readTime
+                        text = xpesan+ zxc + "\n[ 已讀時間 ]: \n" + readTime
                         try:
                             nadya.sendMessage(receiver, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
                         except Exception as error:
                             print (error)
                         pass
                     else:
-                        nadya.sendMessage(receiver,"Lurking has not been set.")
+                        nadya.sendMessage(receiver,"已讀點尚未設置")
 #==============================================================================#
                 elif msg.text.lower().startswith("say-af "):
                     sep = text.split(" ")
@@ -893,7 +894,7 @@ def lineBot(op):
                     lang = 'af'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3的結果")
         
                 elif msg.text.lower().startswith("say-sq "):
                     sep = text.split(" ")
@@ -901,7 +902,7 @@ def lineBot(op):
                     lang = 'sq'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ar "):
                     sep = text.split(" ")
@@ -909,7 +910,7 @@ def lineBot(op):
                     lang = 'ar'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-hy "):
                     sep = text.split(" ")
@@ -917,7 +918,7 @@ def lineBot(op):
                     lang = 'hy'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-bn "):
                     sep = text.split(" ")
@@ -925,7 +926,7 @@ def lineBot(op):
                     lang = 'bn'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-ca "):
                     sep = text.split(" ")
@@ -933,7 +934,7 @@ def lineBot(op):
                     lang = 'ca'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-zh "):
                     sep = text.split(" ")
@@ -941,7 +942,7 @@ def lineBot(op):
                     lang = 'zh'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-zh-cn "):
                     sep = text.split(" ")
@@ -949,7 +950,7 @@ def lineBot(op):
                     lang = 'zh-cn'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-zh-tw "):
                     sep = text.split(" ")
@@ -957,7 +958,7 @@ def lineBot(op):
                     lang = 'zh-tw'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-zh-yue "):
                     sep = text.split(" ")
@@ -965,7 +966,7 @@ def lineBot(op):
                     lang = 'zh-yue'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-hr "):
                     sep = text.split(" ")
@@ -973,7 +974,7 @@ def lineBot(op):
                     lang = 'hr'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-cs "):
                     sep = text.split(" ")
@@ -981,7 +982,7 @@ def lineBot(op):
                     lang = 'cs'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-da "):
                     sep = text.split(" ")
@@ -989,7 +990,7 @@ def lineBot(op):
                     lang = 'da'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-nl "):
                     sep = text.split(" ")
@@ -997,7 +998,7 @@ def lineBot(op):
                     lang = 'nl'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-en "):
                     sep = text.split(" ")
@@ -1005,7 +1006,7 @@ def lineBot(op):
                     lang = 'en'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-en-au "):
                     sep = text.split(" ")
@@ -1013,7 +1014,7 @@ def lineBot(op):
                     lang = 'en-au'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-en-uk "):
                     sep = text.split(" ")
@@ -1021,7 +1022,7 @@ def lineBot(op):
                     lang = 'en-uk'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"hasil.mp3")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-en-us "):
                     sep = text.split(" ")
