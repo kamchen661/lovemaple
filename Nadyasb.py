@@ -1284,7 +1284,7 @@ def lineBot(op):
                     say = text.replace(sep[0] + " ","")
                     lang = 'tr'
                     tts = gTTS(text=say, lang=lang)
-                    tts.save("hasil.mp3")mp3結果
+                    tts.save("hasil.mp3")
                     nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-uk "):
