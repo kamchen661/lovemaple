@@ -1173,7 +1173,7 @@ def lineBot(op):
                     lang = 'pl'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"mp3結果mp3結果")
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-pt "):
                     sep = text.split(" ")
@@ -1301,7 +1301,7 @@ def lineBot(op):
                     lang = 'vi'
                     tts = gTTS(text=say, lang=lang)
                     tts.save("hasil.mp3")
-                    nadya.sendAudio(msg.to,"mp3結果")mp3結果
+                    nadya.sendAudio(msg.to,"mp3結果")
                     
                 elif msg.text.lower().startswith("say-cy "):
                     sep = text.split(" ")
