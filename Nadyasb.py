@@ -149,7 +149,7 @@ def helpmessage():
                   "╠➥ SearchMusic「Search」搜尋音樂" + "\n" + \
                   "╠➥ SearchLyric「Search」搜尋歌詞" + "\n" + \
                   "╠➥ SearchImage「Search」搜尋圖片" + "\n" + \
-                  "╠➥ ScreenshootWebsite「網址l」 網站的螢幕截圖" + "\n" + \
+                  "╠➥ ScreenshootWebsite「網址」 網站的螢幕截圖" + "\n" + \
                   "║" + "\n" + \
                   "╚═〘 半垢製作者:@楓糖  〙"
     return helpMessage
@@ -364,7 +364,7 @@ def lineBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     nadya.sendMessage(to, str(helpMessage))
-                    nadya.sendContact(to, "uec6d62c3e4a61f033332bc1d86133e49b")
+                    nadya.sendContact(to, "uec6d62c3e4a61f033332bc1d86133e49")
                 elif text.lower() == 'texttospeech':
                     helpTextToSpeech = helptexttospeech()
                     nadya.sendMessage(to, str(helpTextToSpeech))
